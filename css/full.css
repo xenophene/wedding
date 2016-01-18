@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: transparent;
+    font-family: 'Montserrat', arial, sans-serif;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('../front.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-inverse {
+    background-color: #311B92;
+    border-color: #B388FF;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 0.67);
+}
+.transparent {
+    padding-top: 50px;
+    background-color: transparent;
+}
+.float {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #eee;
+}
+.float .date {
+    background: url('../ribbon-purple.svg') no-repeat;
+    height: 126px;
+    padding-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    -webkit-opacity: 0.85;
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+.date-text {
+    font-size: 25px;
+    padding-left: 110px;
+    color: #fff;
+}

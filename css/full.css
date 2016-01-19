@@ -29,7 +29,7 @@ body {
 
 .navbar-inverse {
     background-color: #311B92;
-    border-color: #B388FF;
+    border-color: #333;
 }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     color: rgba(255, 255, 255, 0.67);

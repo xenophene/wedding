@@ -41,6 +41,9 @@ body {
     -o-background-size: cover;
     text-align: left;
 }
+#family {
+    background-color: #333;
+}
 #or {
     background: url('../kashmir-tourism-places.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -88,6 +91,11 @@ body {
 .tab-pane {
     height: 100%;
     padding-top: 150px;
+    position: relative;
+}
+.tab-pane>.container {
+  max-height: 100%;
+  overflow: auto;
 }
 .cursive {
     font-family: 'Dancing Script';
@@ -96,9 +104,9 @@ body {
 .thumbnail {
     background-color: transparent;
     text-color: #fff;
+    text-align: center;
 }
 .thumbnail>h2 {
     font-family: 'Dancing Script';
-    text-align: center;
     font-weight: bold;
 }

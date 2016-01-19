@@ -41,9 +41,6 @@ body {
     -o-background-size: cover;
     text-align: left;
 }
-#family {
-    background-color: #333;
-}
 #or {
     background: url('../kashmir-tourism-places.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -57,7 +54,7 @@ body {
     color: #fff;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.8);
 }
-#rsvp {
+#family, #rsvp, #gallery {
     background-color: #333;
 }
 .navbar .navbar-nav {

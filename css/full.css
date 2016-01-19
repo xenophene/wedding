@@ -21,46 +21,23 @@ body {
     text-align: left;
 }
 #jwm {
-    background: url('../front.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     text-align: left;
 }
 #events {
-    background: url('../front.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     text-align: left;
 }
 #family {
-    background: url('../family.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     text-align: left;
 }
 #or {
-    background: url('../kashmir-tourism-places.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     text-align: left;
 }
 #gallery {
+    text-align: left;
 }
 #rsvp {
-    background: url('../front.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     text-align: left;
+    background-color: #333;
 }
 .navbar .navbar-nav {
     display: inline-block;

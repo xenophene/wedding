@@ -18,9 +18,6 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Scrolling nav CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="css/full.css" rel="stylesheet">
 
@@ -33,103 +30,101 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
        <div class="container-fluid" id="navfluid">
-           <div class="navbar-header page-scroll">
+           <div class="navbar-header">
                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
                    <span class="sr-only">Toggle navigation</span>
                    <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">❤ PreAbhi ❤</a>
+                <a class="active navbar-brand nav-link" data-toggle="tab" role="tab" href="#intro">❤ PreAbhi ❤</a>
            </div>
            <div class="collapse navbar-collapse" id="navigationbar">
                <ul class="nav navbar-nav">
-                  <li> <a class="page-scroll" href="#jwm">Jab we met</a> </li>
-                  <li> <a class="page-scroll" href="#events">Events</a> </li>
-                  <li> <a class="page-scroll" href="#family">Family</a> </li>
-                  <li> <a class="page-scroll" href="#or">Our roots</a> </li>
-                  <li> <a class="page-scroll" href="#gallery">Gallery</a> </li>
-                  <li> <a class="page-scroll" href="#rsvp">RSVP</a> </li>
+                  <li> <a class="nav-link" data-toggle="tab" role="tab" href="#jwm">Jab we met</a> </li>
+                  <li> <a class="nav-link" data-toggle="tab" role="tab" href="#events">Events</a> </li>
+                  <li> <a class="nav-link" data-toggle="tab" role="tab" href="#family">Family</a> </li>
+                  <li> <a class="nav-link" data-toggle="tab" role="tab" href="#or">Our roots</a> </li>
+                  <li> <a class="nav-link" data-toggle="tab" role="tab" href="#gallery">Gallery</a> </li>
+                  <li> <a class="nav-link" data-toggle="tab" role="tab" href="#rsvp">RSVP</a> </li>
               </ul>
           </div><!-- /.navbar-collapse -->
        </div><!-- /.container-fluid -->
     </nav>
 
-    <section id="intro" class="section">
-      <div class="container transparent">
-        <div class="row">
-          <div class="jumbotron float .col-xs-12 .col-md-6">
-            <h1>Prerna & Abhimanyu</h1>
-            <p>have found their soul-mate in each other...<br/>
-            Join us as we celebrate their special day!<br/>
-            </p>
-            <span class="date-text">April 22, 2016</span>
-            <p><a class="btn btn-primary btn-lg page-scroll" href="#rsvp" role="button">RSVP</a></p>
+    <div class="tab-content">
+      <div id="intro" class="tab-pane active">
+        <div class="container transparent">
+          <div class="row">
+            <div class="jumbotron float .col-xs-12 .col-md-6">
+              <h1>Prerna & Abhimanyu</h1>
+              <p>have found their soul-mate in each other...<br/>
+              Join us as we celebrate their special day!<br/>
+              </p>
+              <span class="date-text">April 22, 2016</span>
+              <p><a class="btn btn-primary btn-lg" data-toggle="tab" href="#rsvp" role="button">RSVP</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="jwm" class="section">
-      <div class="container">
-        <div class="row">
-        </div>
-      </div>
-    </section>
-
-    <section id="events" class="section">
-      <div class="container">
-        <div class="row">
-        </div>
-      </div>
-    </section>
-
-    <section id="family" class="section">
-      <div class="container">
-        <div class="row">
-        </div>
-      </div>
-    </section>
-
-    <section id="or" class="section">
-      <div class="container">
-        <div class="row">
-          <h1>our roots</h1>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="section">
-      <div class="container">
-        <div class="row">
-          <h1>gallery</h1>
-        </div>
-      </div>
-    </section>
-
-    <section id="rsvp" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-            <iframe src="https://docs.google.com/forms/d/1d2lq7sEIvCEoMNCu3YxqLoHGaYvRv-YQE1LmgqQvUlM/viewform?embedded=true" height="920" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <div id="jwm" class="tab-pane">
+        <div class="container">
+          <div class="row">
           </div>
         </div>
       </div>
-    </section>
 
+      <div id="events" class="tab-pane">
+        <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+
+      <div id="family" class="tab-pane">
+        <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </div>
+
+      <div id="or" class="tab-pane">
+        <div class="container">
+          <div class="row">
+            <h1>our roots</h1>
+          </div>
+        </div>
+      </div>
+
+      <div id="gallery" class="tab-pane">
+        <div class="container">
+          <div class="row">
+            <h1>gallery</h1>
+          </div>
+        </div>
+      </div>
+
+      <div id="rsvp" class="tab-pane">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+              <iframe src="https://docs.google.com/forms/d/1d2lq7sEIvCEoMNCu3YxqLoHGaYvRv-YQE1LmgqQvUlM/viewform?embedded=true" height="920" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>

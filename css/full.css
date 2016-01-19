@@ -4,10 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html {
+    width: 100%;
+    height: 100%;
+}
 body {
-    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: transparent;
     font-family: 'Montserrat', arial, sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -20,23 +25,10 @@ body {
     -o-background-size: cover;
     text-align: left;
 }
-#jwm {
-    text-align: left;
-}
-#events {
-    text-align: left;
-}
-#family {
-    text-align: left;
-}
-#or {
-    text-align: left;
-}
-#gallery {
+.section {
     text-align: left;
 }
 #rsvp {
-    text-align: left;
     background-color: #333;
 }
 .navbar .navbar-nav {
@@ -67,4 +59,11 @@ body {
     font-weight: bold;
     font-size: 2.5em;
     margin: 0 0 10px 5px;
+}
+.tab-content {
+    height: 100%;
+}
+.tab-pane {
+    height: 100%;
+    padding-top: 150px;
 }

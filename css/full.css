@@ -18,7 +18,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 #intro {
-    background: url('../front.jpg') fixed center;
+    background: url('../front.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -26,7 +26,7 @@ body {
     text-align: left;
 }
 #jwm {
-    background: url('../jwm.jpg') fixed center;
+    background: url('../jwm.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -34,7 +34,7 @@ body {
     text-align: left;
 }
 #events {
-    background: url('../events.jpg') fixed center;
+    background: url('../events.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
     text-align: left;
 }
 #or {
-    background: url('../kashmir-tourism-places.jpg') fixed center;
+    background: url('../kashmir-tourism-places.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

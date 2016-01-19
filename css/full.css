@@ -42,18 +42,9 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     color: #eee;
 }
-.float .date {
-    background: url('../ribbon-purple.svg') no-repeat;
-    height: 126px;
-    padding-top: 8px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    -webkit-opacity: 0.85;
-    -moz-opacity: 0.85;
-    opacity: 0.85;
-}
 .date-text {
-    font-size: 25px;
-    padding-left: 110px;
-    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 0 0 10px 5px;
 }

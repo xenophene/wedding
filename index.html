@@ -88,7 +88,7 @@
       <div id="events" class="tab-pane">
         <div class="container">
           <div class="row front">
-            <div class="date-text col-xs-12 col-lg-12">
+            <div class="date-text col-xs-10 col-lg-8">
               <span id="days"></span> days, <span id="hours"></span> hours, <span id="minutes"></span> minutes and <span id="seconds"></span> seconds to go!
             </div>
             <div class="col-xs-12">
@@ -235,10 +235,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script>
-      var shaadi_date = new Date("04/22/2016 20:00");
+      var shaadi_date = new Date(Date.UTC(2016, 3, 22, 20));
       $(function() {
         setInterval(function() {
-          var now_date = new Date();
+          var now_date = new Date().getTime();
           var left = Math.floor((shaadi_date - now_date) / 1000);
           var days = Math.floor(left / 86400);
           left -= days * 86400;

@@ -50,6 +50,7 @@ body {
     text-align: left;
 }
 .front {
+    padding-top: 150px;
     background-color: rgba(0, 0, 0, 0.05);
     color: #fff;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.8);
@@ -87,7 +88,6 @@ body {
 }
 .tab-pane {
     height: 100%;
-    padding-top: 150px;
     position: relative;
 }
 .tab-pane>.container {

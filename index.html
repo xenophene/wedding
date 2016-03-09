@@ -89,7 +89,7 @@
         <div class="container">
           <div class="row front">
             <div class="date-text col-xs-10 col-lg-8">
-              <span id="days"></span> days, <span id="hours"></span> hours, <span id="minutes"></span> minutes and <span id="seconds"></span> seconds to go!
+              <span id="days"></span> days to go!
             </div>
             <div class="col-xs-12">
               <h4>With the heavenly blessings of Late Smt. Ratan Rani Ganju and Late Shri. BN Ganju (Prerna's maternal grandparents), Late Smt. Rupa Malla and Late Shri. KL Malla (Prerna's paternal grandparents), Dr. (Mrs.) Veena Ganju Malla and Mr. RM Malla request the honour of your presence at these occasions.</h4>
@@ -97,35 +97,36 @@
             <div class="col-xs-12 col-md-4">
               <div class="thumbnail">
                   <h2>Ring Ceremony and Cocktails</h2>
-                  Kingdom of Dreams<br/>
-                  Auditorium Complex, Near IFCCO Metro Station, Sector 29, Gurgaon<br/>
-                  April 16 2016, 8pm onwards<br/>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.379548356686!2d77.06697315129625!3d28.46811419816682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18e3233df2b5%3A0xc1f823d5f7e59d32!2sKingdom+of+Dreams!5e0!3m2!1sen!2sus!4v1453176475772" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  Jaypee Vasant Continental<br/>
+                  Vasant Vihar<br/>
+                  April 16 2016, 7:30pm onwards<br/>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.4422391895896!2d77.16212325129736!3d28.55648009418208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dae555554df%3A0x318e1aa1e99cb448!2sJaypee+Vasant+Continental%2C+New+Delhi!5e0!3m2!1sen!2sus!4v1457498846477" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </p>
               </div>
             </div>
             <div class="col-xs-12 col-md-4">
               <div class="thumbnail">
-                  <h2>Mehndi Raat</h2>
+                  <h2>Mehendi Ceremony</h2>
                   <p></p>
-                  Mapple Emerald<br/>
-                  Rajokri, NH-8, New Delhi - 110038<br/>
-                  April 20 2016, 8pm onwards<br/>
+                  Atlantis, Mapple Emerald<br/>
+                  Rajokri, NH-8, New Delhi - 110036<br/>
+                  April 20 2016, 7pm onwards<br/>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d133437.75749093213!2d77.07126777052511!3d28.49522924348339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bfe51c9714f%3A0xc13cc843b7823b9e!2sMapple+Emerald!5e0!3m2!1sen!2sus!4v1453178951258" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-xs-12 col-md-4">
               <div class="thumbnail">
                   <h2>Wedding</h2>
-                  Ritz Ambience<br/>
-                  The Ritz Ambience, Golf Drive, Ambience Island<br/>
-                  Behind Leela Hotel Gurgaon</br>
+                  The Ritz<br/>
+                  Golf Drive, Ambience Island<br/>
+                  Behind Leela Hotel, Gurgaon</br>
                   April 22 2016, 8pm onwards<br/>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.3513734430408!2d77.10882857359617!3d28.499074324767008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zsDI5JzU2LjciTiA3N8KwMDYnMzcuNCJF!5e0!3m2!1sen!2sus!4v1453192320671" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                   <img src="ritz-map.jpg"/>
               </div>
             </div>
           </div>
+          Please find the invitation card <a href="wedding.pdf" target="_blank">here</a>.
         </div>
       </div>
 
@@ -259,19 +260,8 @@
           var now_date = new Date().getTime();
           var left = Math.floor((shaadi_date - now_date) / 1000);
           var days = Math.floor(left / 86400);
-          left -= days * 86400;
-
-          var hours = Math.floor(left / 3600) % 24;
-          left -= hours * 3600;
-
-          var minutes = Math.floor(left / 60) % 60;
-          left -= minutes * 60;
-
           var seconds = left % 60;
           $("#days").html(days);
-          $("#hours").html(hours);
-          $("#minutes").html(minutes);
-          $("#seconds").html(seconds);
         }, 1000);
       });
     </script>

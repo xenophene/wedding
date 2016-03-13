@@ -57,7 +57,7 @@ body {
     -o-background-size: cover;
     text-align: left;
 }
-#intro .front {
+#intro>.container>.row>.front {
     padding-top: 28em;
     background-color: rgba(0, 0, 0, 0.12);
     color: #fff;

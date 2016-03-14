@@ -71,6 +71,7 @@ body {
 }
 #family, #rsvp, #gallery {
     background-color: #333;
+    text-align: left;
 }
 .navbar .navbar-nav {
     display: inline-block;

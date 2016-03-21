@@ -18,7 +18,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 #intro {
-    background: url('../front.jpg') no-repeat center center fixed;
+    background-color: #333;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -26,14 +26,22 @@ body {
     text-align: left;
 }
 #jwm {
-    background: url('../jwm.jpg') no-repeat center center fixed;
+    background-color: #333;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     text-align: left;
 }
-#events {
+#bride-events {
+    background: url('../events.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: left;
+}
+#groom-events {
     background: url('../events.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,13 +58,14 @@ body {
     text-align: left;
 }
 .front {
-    padding-top: 150px;
-    background-color: rgba(0, 0, 0, 0.05);
+    padding-top: 120px;
+    background-color: rgba(0, 0, 0, 0.12);
     color: #fff;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.8);
 }
 #family, #rsvp, #gallery {
     background-color: #333;
+    text-align: left;
 }
 .navbar .navbar-nav {
     display: inline-block;
